@@ -92,7 +92,7 @@ Password is extracted and verified securely
 
 --- 
 
-##🔒 Security Highlights
+## 🔒 Security Highlights
 
 Passwords never stored in plain text
 
