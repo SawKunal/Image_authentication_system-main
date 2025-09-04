@@ -1,10 +1,12 @@
 # Image_authentication_system-main
-🖼️ Image Authentication System
+## 🖼️ Image Authentication System
 
 A Python-based GUI application for secure authentication using steganography and encryption.
 Passwords are hidden inside images using Particle Swarm Optimization (PSO) and cryptographic techniques, making authentication more secure than traditional text-based logins.
 
-✨ Features
+---
+
+## ✨ Features
 
 🔐 User Signup & Login with image-based password storage
 
@@ -18,7 +20,9 @@ Passwords are hidden inside images using Particle Swarm Optimization (PSO) and c
 
 ✅ Secure authentication via extracted hidden password
 
-🛠️ Tech Stack
+--- 
+
+## 🛠️ Tech Stack
 
 Python 3.x
 
@@ -35,15 +39,20 @@ Tkinter – GUI framework
 
 NumPy, JSON, base64, secrets – Supporting libraries
 
-📂 Project Structure
+--- 
+
+## 📂 Project Structure
 Image_authentication_system/
+```
 │── main.py                 # Main application code (signup & login)
 │── auth_data.json          # Stores hashed credentials
 │── encryption_key.key      # Auto-generated encryption key
 │── *_stego.png/.jpg        # Generated stego images (user password embedded)
 │── *_positions.enc         # Encrypted pixel positions for password retrieval
+```
+---
 
-🚀 Installation
+## 🚀 Installation
 
 Clone the repository
 
@@ -71,7 +80,9 @@ Application generates a stego image containing your password + encrypted pixel p
 
 Use this image for future logins
 
-🔓 Login
+---
+
+## 🔓 Login
 
 Enter your username
 
@@ -79,11 +90,9 @@ Select the previously generated stego image
 
 Password is extracted and verified securely
 
-📸 Screenshots
+--- 
 
-(Add screenshots of your Signup and Login windows here)
-
-🔒 Security Highlights
+##🔒 Security Highlights
 
 Passwords never stored in plain text
 
@@ -93,6 +102,8 @@ Encrypted pixel positions for stego retrieval
 
 Stop markers used to ensure safe password extraction
 
-📜 License
+---
+
+## 📜 License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
